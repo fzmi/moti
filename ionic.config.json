@@ -1,0 +1,7 @@
+{
+  "name": "moti",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
