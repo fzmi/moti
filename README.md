@@ -1,5 +1,5 @@
 # MOTI
-[![Netlify Status](https://api.netlify.com/api/v1/badges/488a1a6c-aa06-4f90-9758-654b871a6dbf/deploy-status)](https://app.netlify.com/sites/libay/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/261c6c9b-d818-410f-8769-4ce8fa9b5506/deploy-status)](https://app.netlify.com/sites/moti/deploys)
 
 **This project is currently in development.**
 
