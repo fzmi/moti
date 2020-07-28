@@ -1,0 +1,15 @@
+.Planet {
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+}
+
+.gravity-y {
+  div {
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

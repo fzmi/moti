@@ -1,0 +1,49 @@
+.Splash {
+  width: 100vw;
+  height: 100vh;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#094c72+98,01293f+100 */
+  background: rgb(9, 76, 114);
+  background: -webkit-radial-gradient(bottom, ellipse cover, rgb(9, 76, 114) 0%, rgb(1, 41, 63) 100%);
+  background: -webkit-radial-gradient(ellipse at bottom, rgb(9, 76, 114) 0%, rgb(1, 41, 63) 100%);
+  background: -webkit-radial-gradient(bottom, ellipse, rgb(9, 76, 114) 0%, rgb(1, 41, 63) 100%);
+  background: radial-gradient(ellipse at bottom, rgb(9, 76, 114) 0%, rgb(1, 41, 63) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#094c72', endColorstr='#01293f', GradientType=1);
+}
+
+@function box-shadow($stars) {
+  $bxshadow: ();
+
+  @for $i from 1 to $stars {
+    $bxshadow: append($bxshadow, (random(2000) + 0px) (random(2000) + 0px) rgba(255, 255, 255, 0.3), comma);
+  }
+
+  @return $bxshadow;
+}
+
+$bxshadow-large: box-shadow(300);
+$bxshadow-medium: box-shadow(500);
+$bxshadow-small: box-shadow(800);
+
+.stars.large {
+  height: 3px;
+  width: 3px;
+  border-radius: 1.5px;
+  background: transparent;
+  box-shadow: $bxshadow-large;
+}
+
+.stars.medium {
+  height: 2px;
+  width: 2px;
+  border-radius: 1px;
+  background: transparent;
+  box-shadow: $bxshadow-medium;
+}
+
+.stars.small {
+  height: 1px;
+  width: 1px;
+  border-radius: 0.5px;
+  background: transparent;
+  box-shadow: $bxshadow-small;
+}

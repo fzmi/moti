@@ -1,0 +1,16 @@
+.Star {
+  width: 50px;
+  height: 50px;
+  // background-color: #ccc;
+  border-radius: 50%;
+  position: fixed;
+  left: 50vw;
+  top: 50vh;
+  transform: translate(-50%, -50%);
+  // box-shadow:
+  //   0 0 60px 30px #ddd,
+  //   0 0 100px 60px #f0f,
+  //   0 0 140px 90px #0ff;
+
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.7);
+}
