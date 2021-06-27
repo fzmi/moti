@@ -1,13 +1,6 @@
 # MOTI
-[![Netlify Status](https://api.netlify.com/api/v1/badges/261c6c9b-d818-410f-8769-4ce8fa9b5506/deploy-status)](https://app.netlify.com/sites/moti/deploys)
 
-**This project is currently in development.**
-
-MOTI is a cross-platform web app developed by Pioneer Street.
-
-It is written in TypeScript using Ionic-React framework.
-
-
+MOTI is a cross-platform web app written in TypeScript using Ionic-React framework, developed by Pioneer Street.
 
 ## Installation
 
